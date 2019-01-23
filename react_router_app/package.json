@@ -1,15 +1,14 @@
 {
-  "name": "todolist_animated",
+  "name": "react_router_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.7.0",
-    "react-addons-perf": "^15.4.2",
     "react-dom": "^16.7.0",
-    "react-redux": "^6.0.0",
-    "react-scripts": "2.1.2",
-    "redux": "^4.0.1",
-    "reselect": "^4.0.0"
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "2.1.3",
+    "redux": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

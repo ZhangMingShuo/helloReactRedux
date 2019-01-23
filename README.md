@@ -821,3 +821,9 @@ export default function promiseMiddleware({dispatch}){
 
 如果传入的`action`对象满足条件，那么`Promise`中间件就从`action`对象的`types`字段中取出三个`action`类型，第一个是表示异步操作进行中的`PENDING`，先制造一个`type`为`PENDING`的`action`对象派发出去，告诉系统这个异步动作开始了	，接下来，通过`then`和`catch`分别连接上`promise`字段，分别派发成功和失败动作。
 
+## `React-Router`
+
+`React-Router`可以帮助我们创建`React`单页应用，每个URL都包含**域名部分**和**路径部分**，例如对于URL：`http://localhost:3000/home`来说，路径部分是home，因为应用可能会被部署到任何一个域名上，所以决定一个URL显示什么内容的只有路径部分，和域名以及端口没有关系，根据路径找到对应应用内容的过程，也就是`React-Router`的重要功能--**路由**。
+
+
+
